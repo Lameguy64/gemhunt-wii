@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gemhunt" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="devkitppc_gnu_gcc_compiler_for_nintendo_wii" />
+		<Build>
+			<Target title="Release">
+				<Option output="gemhunt.elf" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="C:/projects/gemhunt" />
+				<Option object_output="C:/projects/gemhunt/.objs" />
+				<Option type="1" />
+				<Option compiler="devkitppc_gnu_gcc_compiler_for_nintendo_wii" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add library="mgdl" />
+					<Add library="valloc" />
+					<Add library="wiiuse" />
+					<Add library="oggplayer" />
+					<Add library="vorbisidec" />
+					<Add library="png" />
+					<Add library="z" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile $target" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="c:/mtek-gdl/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/mtek-gdl/lib/wii" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="elf2dol gemhunt.elf gemhunt.dol" />
+			<Add after="wiiload gemhunt.dol" />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="include/input.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="include/names.h" />
+		<Unit filename="include/osk.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="include/particles.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="include/projectiles.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="include/tilerender.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

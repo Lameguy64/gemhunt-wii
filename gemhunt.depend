@@ -1,0 +1,510 @@
+# depslib dependency file v1.0
+1462344611 source:c:\projects\gemhunt\main.cpp
+	<mgdl-wii.h>
+	"include/names.h"
+	"include/tilerender.cpp"
+	"include/input.cpp"
+	"include/osk.cpp"
+	"include/particles.cpp"
+	"include/projectiles.cpp"
+
+1426370578 c:\mtek-gdl\source\mgdl-wii.cpp
+	"mgdl-wii.h"
+	"wii/mgdl-wii-main.cpp"
+	"wii/mgdl-wii-basic.cpp"
+	"wii/mgdl-wii-texture.cpp"
+	"wii/mgdl-wii-image.cpp"
+	"wii/mgdl-wii-sprites.cpp"
+	"wii/mgdl-wii-font.cpp"
+	"wii/mgdl-wii-sound.cpp"
+
+1440462428 c:\mtek-gdl\include\mgdl-wii.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	<gccore.h>
+	<fat.h>
+	<oggplayer.h>
+	"mgdl-wii/mgdl-config.h"
+	"mgdl-wii/mgdl-types.h"
+	"mgdl-wii/mgdl-globals.h"
+	"mgdl-wii/mgdl-main.h"
+	"mgdl-wii/mgdl-basic.h"
+	"mgdl-wii/mgdl-texture.h"
+	"mgdl-wii/mgdl-image.h"
+	"mgdl-wii/mgdl-sprites.h"
+	"mgdl-wii/mgdl-font.h"
+	"mgdl-wii/mgdl-sound.h"
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\stdio.h
+	"_ansi.h"
+	<stddef.h>
+	<stdarg.h>
+	<sys/reent.h>
+	<sys/types.h>
+	<sys/stdio.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\_ansi.h
+	<newlib.h>
+	<sys/config.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\newlib.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\config.h
+	<machine/ieeefp.h>
+	<sys/features.h>
+	<cygwin/config.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\ieeefp.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\features.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\reent.h
+	<_ansi.h>
+	<sys/_types.h>
+	<sys/types.h>
+	<sys/custom_file.h>
+	<assert.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\_types.h
+	<machine/_types.h>
+	<sys/lock.h>
+	<stddef.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\_types.h
+	<machine/_default_types.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\_default_types.h
+	<limits.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\limits.h
+	<newlib.h>
+	<sys/config.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\lock.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\types.h
+	<_ansi.h>
+	<machine/_types.h>
+	<sys/_types.h>
+	<stddef.h>
+	<machine/types.h>
+	<sys/features.h>
+	<sys/sched.h>
+	<cygwin/types.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\types.h
+	<machine/_types.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\sched.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\custom_file.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\assert.h
+	"_ansi.h"
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\stdio.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\stdlib.h
+	<machine/ieeefp.h>
+	"_ansi.h"
+	<stddef.h>
+	<sys/reent.h>
+	<machine/stdlib.h>
+	<alloca.h>
+	<cygwin/stdlib.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\stdlib.h
+	<sys/types.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\alloca.h
+	"_ansi.h"
+	<sys/reent.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\string.h
+	"_ansi.h"
+	<sys/reent.h>
+	<sys/cdefs.h>
+	<sys/features.h>
+	<stddef.h>
+	<sys/string.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\cdefs.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\string.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\malloc.h
+	<_ansi.h>
+	<sys/reent.h>
+	<stddef.h>
+	<machine/malloc.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\malloc.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\math.h
+	<sys/reent.h>
+	<machine/ieeefp.h>
+	"_ansi.h"
+	<machine/fastmath.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\fastmath.h
+
+1396481158 c:\devkitpro\libogc\include\gccore.h
+	"ogc/dsp.h"
+	"ogc/aram.h"
+	"ogc/arqueue.h"
+	"ogc/arqmgr.h"
+	"ogc/audio.h"
+	"ogc/cache.h"
+	"ogc/card.h"
+	"ogc/cast.h"
+	"ogc/color.h"
+	"ogc/consol.h"
+	"ogc/dvd.h"
+	"ogc/exi.h"
+	"ogc/gu.h"
+	"ogc/gx.h"
+	"ogc/si.h"
+	"ogc/gx_struct.h"
+	"ogc/irq.h"
+	"ogc/lwp.h"
+	"ogc/mutex.h"
+	"ogc/message.h"
+	"ogc/semaphore.h"
+	"ogc/pad.h"
+	"ogc/tpl.h"
+	"ogc/system.h"
+	"ogc/video.h"
+	"ogc/usbgecko.h"
+	"ogc/video_types.h"
+	"ogc/texconv.h"
+	"ogc/ipc.h"
+	"ogc/es.h"
+	"ogc/stm.h"
+	"ogc/ios.h"
+	"ogc/usb.h"
+	"ogc/isfs.h"
+	"ogc/conf.h"
+	"ogc/usbstorage.h"
+	"ogc/wiilaunch.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\dsp.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\gctypes.h
+	<stdbool.h>
+	<stdint.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\stdint.h
+	<_ansi.h>
+	<limits.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\aram.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\arqueue.h
+	<gctypes.h>
+	<ogc/lwp_queue.h>
+	"aram.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\lwp_queue.h
+	<gctypes.h>
+	<libogc/lwp_queue.inl>
+
+1396481158 c:\devkitpro\libogc\include\ogc\arqmgr.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\audio.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\cache.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\card.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\cast.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\color.h
+
+1396481158 c:\devkitpro\libogc\include\ogc\consol.h
+	"gx_struct.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\gx_struct.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\dvd.h
+	<gctypes.h>
+	<ogc/lwp_queue.h>
+	<ogc/disc_io.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\disc_io.h
+	<stdint.h>
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\exi.h
+	"gctypes.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\gu.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\gx.h
+	<gctypes.h>
+	"lwp.h"
+	"gx_struct.h"
+	"gu.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\lwp.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\si.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\irq.h
+	<gctypes.h>
+	"context.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\context.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\mutex.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\message.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\semaphore.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\pad.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\tpl.h
+	"gx.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\system.h
+	<gctypes.h>
+	<gcutil.h>
+	<time.h>
+	<ogc/lwp_queue.h>
+	"gx_struct.h"
+
+1396481158 c:\devkitpro\libogc\include\gcutil.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\time.h
+	"_ansi.h"
+	<sys/reent.h>
+	<stddef.h>
+	<machine/time.h>
+	<sys/types.h>
+	<sys/features.h>
+	<cygwin/time.h>
+	<signal.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\time.h
+	<sys/types.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\signal.h
+	"_ansi.h"
+	<sys/signal.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\signal.h
+	"_ansi.h"
+	<sys/features.h>
+	<sys/types.h>
+	<cygwin/signal.h>
+	<signal.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\video.h
+	<gctypes.h>
+	"gx_struct.h"
+	"video_types.h"
+
+1396481158 c:\devkitpro\libogc\include\ogc\video_types.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\usbgecko.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\texconv.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\ipc.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\es.h
+	<gctypes.h>
+	<gcutil.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\stm.h
+	<gctypes.h>
+	<gcutil.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\ios.h
+	<gctypes.h>
+	<gcutil.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\usb.h
+	<gcutil.h>
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\isfs.h
+	<gctypes.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\conf.h
+	<gctypes.h>
+	<gcutil.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\usbstorage.h
+	<gctypes.h>
+	<ogc/mutex.h>
+	<ogc/disc_io.h>
+	<ogc/system.h>
+
+1396481158 c:\devkitpro\libogc\include\ogc\wiilaunch.h
+	<gctypes.h>
+	<gcutil.h>
+
+1396481121 c:\devkitpro\libogc\include\fat.h
+	"libfatversion.h"
+	<stdint.h>
+	<ogc/disc_io.h>
+	<nds/disc_io.h>
+	<disc_io.h>
+
+1396481121 c:\devkitpro\libogc\include\libfatversion.h
+
+1396481158 c:\devkitpro\libogc\include\asndlib.h
+	<gctypes.h>
+
+1425241484 c:\devkitpro\libogc\include\oggplayer.h
+
+1425241484 c:\devkitpro\libogc\include\png.h
+	"pnglibconf.h"
+	<setjmp.h>
+	<time.h>
+	"pngconf.h"
+
+1425241484 c:\devkitpro\libogc\include\pnglibconf.h
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\setjmp.h
+	"_ansi.h"
+	<machine/setjmp.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\setjmp.h
+	"setjmp-dj.h"
+	<signal.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\machine\setjmp-dj.h
+
+1425241484 c:\devkitpro\libogc\include\pngconf.h
+	<limits.h>
+	<strings.h>
+	<string.h>
+	<stdio.h>
+	<dos.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\strings.h
+	"_ansi.h"
+	<sys/reent.h>
+	<sys/types.h>
+
+1425241484 c:\devkitpro\libogc\include\zlib.h
+	"zconf.h"
+
+1425241484 c:\devkitpro\libogc\include\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\unistd.h
+	<sys/unistd.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\sys\unistd.h
+	<_ansi.h>
+	<sys/types.h>
+	<sys/_types.h>
+	<stddef.h>
+	<getopt.h>
+	<sys/features.h>
+
+1396456901 c:\devkitpro\devkitppc\powerpc-eabi\include\getopt.h
+	<_ansi.h>
+
+1425241484 c:\devkitpro\libogc\include\valloc.h
+	<stddef.h>
+
+1434845806 c:\mtek-gdl\source\wii\mgdl-wii-main.cpp
+
+1433898987 c:\mtek-gdl\source\wii\mgdl-wii-basic.cpp
+
+1426370571 c:\mtek-gdl\source\wii\mgdl-wii-texture.cpp
+
+1434863409 c:\mtek-gdl\source\wii\mgdl-wii-image.cpp
+
+1427583931 c:\mtek-gdl\source\wii\mgdl-wii-sprites.cpp
+
+1434839521 c:\mtek-gdl\source\wii\mgdl-wii-font.cpp
+
+1426370484 c:\mtek-gdl\source\wii\mgdl-wii-sound.cpp
+
+1432426827 c:\projects\gemhunt\include\names.h
+
+1432608300 c:\projects\gemhunt\include\tilerender.cpp
+
+1431726115 c:\projects\gemhunt\include\input.cpp
+	<wiiuse/wpad.h>
+
+1396481158 c:\devkitpro\libogc\include\wiiuse\wpad.h
+	<gctypes.h>
+	<wiiuse/wiiuse.h>
+
+1396481158 c:\devkitpro\libogc\include\wiiuse\wiiuse.h
+	<windows.h>
+	<bte/bte.h>
+	<bluetooth/bluetooth.h>
+
+1396481158 c:\devkitpro\libogc\include\bte\bte.h
+	<gccore.h>
+	"bd_addr.h"
+
+1396481158 c:\devkitpro\libogc\include\bte\bd_addr.h
+	<gctypes.h>
+
+1428551575 c:\projects\gemhunt\include\osk.cpp
+
+1462344384 c:\projects\gemhunt\include\particles.cpp
+
+1462344413 c:\projects\gemhunt\include\projectiles.cpp
+
+1444286265 c:\mtek-gdl\include\mgdl-wii\mgdl-config.h
+	<valloc.h>
+
+1444163994 c:\mtek-gdl\include\mgdl-wii\mgdl-types.h
+	<gccore.h>
+
+1443237158 c:\mtek-gdl\include\mgdl-wii\mgdl-globals.h
+
+1444284790 c:\mtek-gdl\include\mgdl-wii\mgdl-main.h
+
+1443154170 c:\mtek-gdl\include\mgdl-wii\mgdl-basic.h
+
+1443245534 c:\mtek-gdl\include\mgdl-wii\mgdl-texture.h
+
+1443245867 c:\mtek-gdl\include\mgdl-wii\mgdl-image.h
+	<png.h>
+	"mgdl-wii/mgdl-texture.h"
+
+1443245892 c:\mtek-gdl\include\mgdl-wii\mgdl-sprites.h
+
+1443155004 c:\mtek-gdl\include\mgdl-wii\mgdl-font.h
+
+1443246229 c:\mtek-gdl\include\mgdl-wii\mgdl-sound.h
+	<gccore.h>
+	"mgdl-wii/mgdl-config.h"
+
