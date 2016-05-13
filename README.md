@@ -11,12 +11,27 @@ The game requires a Classic Controller to play so modification of the source cod
 Original Gemhunt project thread:
 http://www.mylittlegamedev.com/thread-1284.html
 
+# Precompiled Binaries
+
+Pre-alpha Nintendo Wii version (works with Wiimote+Nunchuk):
+http://lameguy64.github.io/gemhunt-wii/gemhunt-old-wii.zip
+
+Pre-alpha PSP version (was an experimental port):
+http://lameguy64.github.io/gemhunt-wii/gemhunt-old-psp.zip
+
+PC (Win32) version:
+http://lameguy64.github.io/gemhunt-wii/gemhunt-pc.zip
+
+Please note that the PC version was built with the most recent source code of this game (it featured gem spawning and weapon equip slots) and was hastily ported over to PC at some point. The source code provided in this repository is not the same as the PC version but I'll be porting the PC source back to Wii eventually.
+
+The reason why I'm not putting out the PC source right away is that the latest PC version of my MTek-GDL library (which the game uses) turned out awful compared to the Wii version of the library.
+
 # Compiling
 
 First off, you will need DevkitPPC which is part of the DevkitPro toolchain which you can download here:
 https://sourceforge.net/projects/devkitpro/files/devkitPPC/
 
-This game uses the MTek-GDL library which you can get here:
+This game uses the latest version of the MTek-GDL library which you can get here:
 https://github.com/Lameguy64/mtek-gdl
 
 Use the version of the library provided in that repository because of major syntax changes and rewrites unlike the 7z releases provided in the wiibrew page.
